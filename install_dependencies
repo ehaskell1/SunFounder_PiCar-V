@@ -141,7 +141,7 @@ fi
 
 echo -e "Cloning repo \n"
 cd ../
-git clone --recursive https://github.com/ehaskell1/SunFounder_PiCar.git
+git clone --recursive -b python3 https://github.com/ehaskell1/SunFounder_PiCar.git
 cd SunFounder_PiCar
 echo -e "    Installing PiCar module \n"
 python3 setup.py install
